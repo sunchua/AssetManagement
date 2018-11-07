@@ -12,7 +12,38 @@ $shadow5 : 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 	box-sizing: border-box;
 }
 
+.bg{
+
+  color: white;
+	display: flex;
+	padding: 20px;
+	min-height: 100vh;
+	position: relative;
+	flex-direction: column;
+	justify-content: center;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background-color: #a06060;
+	background: linear-gradient(130deg, #a06060 20%, #aaa 100%) no-repeat center center fixed;
+}
+
+.top-image{
+  // background-image:url('../assets/imgs/loginbg2.jpg');
+  min-height: 30vh;
+  min-width: 10vh;
+
+
+  // display: flex;
+	// padding: 5px;
+	// min-height: 10vh;
+	// position: center;
+	// flex-direction: column;
+	// justify-content: center;
+
+}
+
 body {
+  // background-image: url('../assets/imgs/assetMBg.jpg');
+  // background-image:url('../assets/imgs/assetMbg3.jpg');
 	color: white;
 	display: flex;
 	padding: 20px;
